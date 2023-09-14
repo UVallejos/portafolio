@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-top: 23px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 12px solid #3182ce;
+    left: 100%;
+    top: 0;
+  }
+
+  @font-face {
+    font-family: Casta-ThinSladented;
+    src: url("/resources/fonts/Casta-ThinSlanted.otf") format("opentype");
+
+  }
+
+  @font-face {
+    font-family: Casta-Thin;
+    src: url("/resources/fonts/Casta-Thin.otf") format("opentype");
+
+  }
+
+  @font-face {
+    font-family: Justus-Bold;
+    src: url("/resources/fonts/Justus-Bold.ttf") format("truetype");
+
+  }
+
+  @font-face {
+    font-family: Justus-Oldstyle;
+    src: url("/resources/fonts/Justus-Oldstyle.ttf") format("truetype");
+
+  }
+
+  @font-face {
+    font-family: Justus-Roman;
+    src: url("/resources/fonts/Justus-Roman.ttf") format("truetype");
+
+  }
+  @font-face {
+    font-family: Neuton-SC-Extralight;
+    src: url("/resources/fonts/Neuton-SC-Extralight.ttf") format("truetype");  
+
+  }
+
+  @font-face {
+    font-family: NNeuton-SC-Light;
+    src: url("/resources/fonts/Neuton-SC-Light.ttf") format("truetype");
+
+  }
+  @font-face {
+    font-family: NNeuton-SC-Light;
+    src: url("/resources/fonts/Neuton-SC-Bold.ttf") format("truetype");
+
+  }
+
