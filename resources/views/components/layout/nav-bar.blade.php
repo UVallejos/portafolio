@@ -36,7 +36,7 @@
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
                   @foreach($navigationItems as $item)
-                  <x-layout.navbar-item :href="$item['href']">{{$item["label"]}}</x-layout.navbar-item>
+                  <x-layout.nav-bar-item :href="$item['href']">{{$item["label"]}}</x-layout.nav-bar-item>
                   @endforeach
                 </div>
               </div>
