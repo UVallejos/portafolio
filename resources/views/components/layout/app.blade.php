@@ -1,6 +1,6 @@
-
+<br>
 <!--About Me-->
-<div id="about" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 drop-shadow-xl">
+<div id="about" class="rounded-lg bg-white px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 drop-shadow-xl">
   <x-about-me></x-about-me>
 </div>
 
@@ -10,7 +10,7 @@
 </div>
 
 <!--Portafolio-->
-<div id="portafolio" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 drop-shadow-xl">
+<div id="portafolio" class="rounded-lg bg-white px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 drop-shadow-xl">
   <x-title>
     Portafolio
   </x-tittle>
@@ -57,12 +57,12 @@
 </div>
 
 <!--Experience-->
-<div id="experience" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 drop-shadow-xl">
-  <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+<div id="experience" class=" px-0.5 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-6 lg:py-16 drop-shadow-xl">
+  <div class="max-w-screen-xl rounded-lg mx-auto px-5 bg-white min-h-sceen">
     <x-title>
       Experiencia
     </x-tittle>
-    <div class="grid grid-cols-2 divide-x divide-neutral-200 max-w-full mx-auto mt-4">
+    <div class="grid divide-neutral-200 max-w-full mx-auto mt-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:px-8 md:px-8 lg:grid-cols-2">
       
       <!--ACADEMICA-->
       @component("components.experience")
@@ -189,9 +189,7 @@
 
 <!--Contacto-->
 <div id="contact" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 drop-shadow-xl">
-  <x-title>
-    Contacto
-  </x-tittle>
+  
   <div class="grid gap-8 lg:grid-cols-1 sm:max-w-sm sm:mx-auto lg:max-w-full">
     <x-contact></x-contact>
   </div>

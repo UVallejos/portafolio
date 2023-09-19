@@ -4,7 +4,7 @@
       <path d="M50 0H100L50 100H0L50 0Z"></path>
     </svg>
     <img
-      class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+      class="object-cover w-full h-56 rounded-lg shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
       src="{{asset('assets/img/perfil.jpeg')}}"
       alt=""
       class="w-1260 "
@@ -13,12 +13,14 @@
   <div class="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
     <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
       <!--<p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">Brand new</p>-->
-      <h1 class="mb-5 font-casta  text-4xl text-gray-900 sm:text-5xl sm:leading-none">
+      <h1 class="mb-5 font-casta text-7xl text-gray-900 sm:text-7xl sm:leading-none">
       <span class="inline-block text-blue-accent-200">U</span>lises Antonio <br class="hidden md:block" /> Vallejos <span class="inline-block text-blue-accent-200">S</span>algado<br class="hidden md:block" />
       </h1>
-      <h5 class="mb-5 font-castat  text-xl text-gray-900 sm:text-3xl sm:leading-none">
+      <h1 class="mb-5 font-castat  text-4xl text-gray-900 sm:text-4xl sm:leading-none">
       <span class="inline-block text-blue-accent-200">D</span>esarrollador Blockchain<br class="hidden md:block" />
-      </h5>
+      
+      </h1>
+      
       
       <p class="pr-5 mb-5 text-base text-gray-700 md:text-lg">
       </p>

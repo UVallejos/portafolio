@@ -10,7 +10,7 @@
         @vite(['resources/js/app.js'])
     </head>
     
-    <body class="antialiased">
+    <body class="antialiased bg-slate-200">
 
       <header>
         <!--NavBar-->

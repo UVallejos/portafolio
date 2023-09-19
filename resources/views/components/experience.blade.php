@@ -1,4 +1,4 @@
-<div class="py-5 ">
+<div class="py-5">
         <details class="group" open="">
           <summary class="mb-5 flex justify-center items-center font-jutsub cursor-pointer list-none">
             <h3 class="font-jutsub text-3xl">{{$title}}</h3>

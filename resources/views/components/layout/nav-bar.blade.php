@@ -1,5 +1,5 @@
-<div class="bg-gray-900 rounded-xl drop-shadow-2xl">
-  <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+<div id="about" class="rounded-lg bg-gray-900 mt-5 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-2 drop-shadow-xl">
+  <div class="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
     <div class="relative flex items-center justify-center">
       <nav>
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
