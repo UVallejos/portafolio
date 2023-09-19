@@ -26,7 +26,7 @@
       </p>
       <div class="flex items-center">
         <a
-          href="/"
+          href="{{ route('descargar.cv') }}"
           class="font-bold inline-flex items-center justify-center h-12 px-6 mr-6  tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-accent-200 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
           Descargar CV
         </a>

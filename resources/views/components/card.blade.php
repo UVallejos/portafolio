@@ -11,14 +11,16 @@
       </p>
     </div>
     <div class="px-6 pt-4 pb-2">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+      <span class="inline-block {{$bg1}} rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{$pill1}}</span>
+      <span class="inline-block {{$bg2}} rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{$pill2}}</span>
+      <span class="inline-block {{$bg3}} rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{$pill3}}</span>
+      <span class="inline-block {{$bg4}} rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{$pill4}}</span>
       
     </div>
-    <div class="flex justify-center content-end">
-      <a href="{{$href}}" target="_blank" aria-label="" class="jus font-neutonb transition-colors duration-200 text-xl text-bold">{{$link}}</a>
+    <div class="grid grid-col-1 justify-items-center ">
+      <div class="">
+        <a href="{{$href}}" target="_blank" aria-label="" class="jus font-neutonb transition-colors duration-200 text-xl text-bold">{{$link}}</a>
+      </div>
     </div>
   </div>
 </div>

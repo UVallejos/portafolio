@@ -7,7 +7,7 @@
             </div>
             <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
               <div class="flex justify-between mb-4">
-                <p class="font-medium  text-xl">{{$title}}</p><br>
+                <p class="font-bold text-2xl">{{$title}}</p><br>
                 <p class="font-bold text-gray-900 text-lg">{{$date}}</p>
               </div>
               <p class="text-gray-700 mb-6">{{$content}}</p>

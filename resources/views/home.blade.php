@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         @vite(['resources/js/app.js'])
+
+        <link rel="shortcut icon" sizes="114x114" href="{{ asset('assets/img/toroide.ico') }}">
     </head>
     
     <body class="antialiased bg-slate-200">
