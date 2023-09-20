@@ -64,7 +64,7 @@
         @slot("bg4", "bg-gray-200")
         @slot("pill4", "HTML")
         @slot("link", "GitHub")
-        @slot("href", "https://github.com/UVallejos/portafolio_simple")
+        @slot("href", "https://github.com/UVallejos/portafolio")
       @endcomponent
 
       @component("components.card")
