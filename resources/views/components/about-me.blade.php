@@ -5,7 +5,7 @@
     </svg>
     <img
       class="object-cover w-full h-56 rounded-lg shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-      src="{{asset('assets/img/perfil.jpeg')}}"
+      src="{{asset('assets/img/perfil.jpg')}}"
       alt=""
       class="w-1260 "
     />
